@@ -19,7 +19,9 @@ constructTable(tableData)
 
 // Attach an event to listen for the form button
 d3.selectAll("#filter-btn").on("click", handleClick);
+d3.selectAll("#selectdate").on("submit", handleClick);
 function handleClick() {
+    d3.event.preventDefault();
     let input = d3.select("#datetime").property("value")
     console.log(input)
     let result = tableData.filter(word => word["datetime"] == input);
