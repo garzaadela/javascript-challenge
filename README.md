@@ -1,4 +1,4 @@
-# JavaScript Homework - JavaScript and DOM Manipulation
+# JavaScript Homework - JavaScript and DOM Manipulation 
 
 ## Background
 
